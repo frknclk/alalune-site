@@ -30,8 +30,8 @@ const Gallery: React.FC = () => {
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {allItems.map((item) => (
-            <div key={item.id} className="card-premium p-0 overflow-hidden">
+          {allItems.map((item, index) => (
+            <div key={item.photo || `${item.name}-${index}`} className="card-premium p-0 overflow-hidden">
               <div className="aspect-square bg-gradient-to-br from-moss-100 to-gold-100 flex items-center justify-center overflow-hidden">
                 <img 
                   src={`/${item.photo}`} 

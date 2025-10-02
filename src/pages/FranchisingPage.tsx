@@ -10,38 +10,7 @@ const FranchisingPage: React.FC = () => {
 
 
 
-  const process = [
-    {
-      step: 1,
-      title: 'Başvuru',
-      description: 'Franchise başvuru formunu doldurun'
-    },
-    {
-      step: 2,
-      title: 'Değerlendirme',
-      description: 'Başvurunuzu detaylı olarak değerlendiriyoruz'
-    },
-    {
-      step: 3,
-      title: 'Görüşme',
-      description: 'Yüz yüze görüşme ve lokasyon değerlendirmesi'
-    },
-    {
-      step: 4,
-      title: 'Sözleşme',
-      description: 'Franchise sözleşmesi imzalama'
-    },
-    {
-      step: 5,
-      title: 'Eğitim',
-      description: 'Kapsamlı eğitim programına katılım'
-    },
-    {
-      step: 6,
-      title: 'Açılış',
-      description: 'Şubenizi açın ve işletmeye başlayın'
-    }
-  ];
+  // Removed unused steps array
 
   return (
     <div className="bg-cream-50 min-h-screen flex flex-col">

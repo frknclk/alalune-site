@@ -1,17 +1,6 @@
 import React, { useState } from 'react';
 import menuData from './data.json';
 
-interface MenuItem {
-  id: number;
-  name: string;
-  name_en: string;
-  description: string;
-  description_en: string;
-  price: number;
-  photo: string;
-  isNew: boolean;
-}
-
 
 const Menu: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('sweet-croissants');
