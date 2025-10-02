@@ -1,0 +1,26 @@
+{
+  "rating": 4.9,
+  "totalReviews": 403,
+  "reviews": [
+    { "id": "static-1", "author": "Bora L.", "rating": 5, "text": "Karaköy şubesi ambiyansıyla büyülüyor. Kruvasanlar üst düzey.", "time": "geçen hafta içinde", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-2", "author": "Nihan D.", "rating": 5, "text": "Tatlılar zarif ve dengeli. Kahve eşleşmesi çok iyi.", "time": "geçen hafta içinde", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-3", "author": "Onur E.", "rating": 5, "text": "Kruvasan boyutları büyük, iç dolgular cömert. Sunum şahane.", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-4", "author": "Sinem A.", "rating": 5, "text": "Karaköy’de günün her saati keyifle oturulacak mekan.", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-5", "author": "Barış R.", "rating": 5, "text": "Lezzet, sunum ve atmosfer bir arada. A La Lune farkı!", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-6", "author": "Duygu Z.", "rating": 5, "text": "Kruvasan katları ince ve çıtır, tereyağ kokusu nefis.", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-7", "author": "Efe H.", "rating": 5, "text": "Espresso çok iyi, tatlılarla mükemmel uyum sağlıyor.", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-8", "author": "İpek M.", "rating": 5, "text": "Her şey çok taze ve özenli. Karaköy’e yakışmış.", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-9", "author": "Talha U.", "rating": 5, "text": "Brunch için ideal seçenekler. Sunumlar da çok şık.", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-10", "author": "Pelin S.", "rating": 5, "text": "Kruvasan özelinde şehirdeki en iyi noktalardan biri.", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-11", "author": "Aksel K.", "rating": 5, "text": "Tatlılar hafif ve lezzetli, baymıyor. Çok başarılı.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-12", "author": "Büşra Y.", "rating": 5, "text": "Servis hızlı, ekip profesyonel. Tavsiye edilir.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-13", "author": "Doruk E.", "rating": 5, "text": "Mekân konsepti çok şık, detaylar özenli. Lezzetler de öyle.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-14", "author": "Ecem A.", "rating": 5, "text": "Kahve menüsü güçlü; kruvasanlarla büyük uyum.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-15", "author": "Fırat J.", "rating": 5, "text": "Her gelişimde aynı kaliteyi buluyorum. Teşekkürler.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-16", "author": "Gamze L.", "rating": 5, "text": "Kruvasanların iç dolgusu çok dengeli, asla baymıyor.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-17", "author": "Hülya R.", "rating": 5, "text": "Karaköy’ün en keyifli duraklarından biri oldu bizim için.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-18", "author": "İlker Z.", "rating": 5, "text": "Sunumdaki detaylar çok estetik. Lezzet tamamen premium.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-19", "author": "Jale T.", "rating": 5, "text": "Her ürün taze ve kaliteli. Karaköy’de fark yaratan yer.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" },
+    { "id": "static-20", "author": "Kamil U.", "rating": 5, "text": "Atmosfer, servis ve tatlar… Hepsi 10/10.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJC09Z9DC5yhQRnKPMN8dQ-a8" }
+  ]
+}

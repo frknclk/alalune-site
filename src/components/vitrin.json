@@ -1,0 +1,100 @@
+[
+    {
+      "id": 1,
+      "category": "Tatlı Kruvasan",
+      "category_en": "Sweet Croissant",
+      "photo": "images/DSCF6123-91 kopya.jpg",
+      "items": [
+        {
+          "name": "A La'Lune Strawberry",
+          "name_en": "A La'Lune Strawberry",
+          "description": "Kruvasan arasında pastacı kreması, çilek ve file badem ile servis edilir",
+          "description_en": "Served with pastry cream, strawberry and sliced almonds between croissant",
+          "price": 405,
+          "photo": "images/kruvasan_cilek.png",
+          "isNew": false
+        },
+        {
+          "name": "A La'Lune Berry",
+          "name_en": "A La'Lune Berry",
+          "description": "Kruvasan arasında pastacı kreması, çilek, böğürtlen ve file badem ile servis edilir",
+          "description_en": "Served with pastry cream, strawberry, blackberry and sliced almonds between croissant",
+          "price": 420,
+          "photo": "images/kruvasan_bogurtlen.png",
+          "isNew": false
+        },
+        {
+          "name": "A La'Lune Blueberry",
+          "name_en": "A La'Lune Blueberry",
+          "description": "Kruvasan arasında yaban mersinli pastacı kreması, yaban mersini, ve böğürtlen ile servis edilir",
+          "description_en": "Served with blueberry pastry cream, blueberries, and blackberries between croissant",
+          "price": 405,
+          "photo": "images/kruvasan_yabanmersini.png",
+          "isNew": false
+        },
+        {
+          "name": "A La'Lune Pistachio",
+          "name_en": "A La'Lune Pistachio",
+          "description": "Kruvasan arasında fıstık kreması, antep fıstığı, ve muz ile servis edilir",
+          "description_en": "Served with pistachio cream, pistachios, and banana between croissant",
+          "price": 420,
+          "photo": "images/kruvasan_fistik.png",
+          "isNew": false
+        },
+        {
+            "name": "A La'Lune Pistachio Pasta",
+            "name_en": "A La'Lune Pistachio Cake",
+            "description": "Antep fıstığı dolgulu, çikolata kaplı pasta",
+            "description_en": "Pistachio filled, chocolate covered pasta",
+            "price": 340,
+            "photo": "images/pasta_fıstık.png",
+            "isNew": false
+          },
+          {
+            "name": "A La'Lune Lemon Pasta",
+            "name_en": "A La'Lune Lemon Cake",
+            "description": "Limonlu püre, beyaz çikolatalı krema, dereotu parçacıkları ve limonlu kaplama",
+            "description_en": "Lemon pure, white chocolate cream, green dill pieces and lemon filling",
+            "price": 325,
+            "photo": "images/pasta_limon.png",
+            "isNew": true
+          },
+          {
+            "name": "A La'Lune Blueberry Pasta",
+            "name_en": "A La'Lune Blueberry Cake",
+            "description": "Yaban mersinli püre, beyaz çikolatalı krema ve yaban mersinli kaplama",
+            "description_en": "Blueberry pure, white chocolate cream and blueberry filling",
+            "price": 325,
+            "photo": "images/pasta_yabanmersini.png",
+            "isNew": true
+          },
+          {
+            "name": "A La'Lune Strawberry Pasta",
+            "name_en": "A La'Lune Strawberry Cake",
+            "description": "Çilekli püre, beyaz çikolatalı krema ve çilekli kaplama",
+            "description_en": "Strawberry pure, white chocolate cream and strawberry filling",
+            "price": 325,
+            "photo": "images/pasta_cilek.png",
+            "isNew": true
+          },
+          {
+            "name": "White Lady",
+            "name_en": "White Lady",
+            "description": "Frambuaz, Limon dolgu, Limon krema, Limonlu kek, Lime sos",
+            "description_en": "Strawberry, lemon filling, lemon cream, lemon cake, lime sauce",
+            "price": 325,
+            "photo": "images/pasta_whitelady.jpeg",
+            "isNew": false
+          },
+                {
+            "name": "Ruby Lady",
+            "name_en": "Ruby Lady",
+            "description": "Çilek, Frambuaz dolgu, Krema, Ruby kek, Frambuaz sos",
+            "description_en": "Strawberry, lemon filling, lemon cream, lemon cake, lime sauce",
+            "price": 325,
+            "photo": "images/pasta_rubylady.png",
+            "isNew": false
+          }
+        ]
+    }
+]

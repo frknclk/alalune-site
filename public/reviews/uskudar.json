@@ -1,0 +1,26 @@
+{
+  "rating": 4.3,
+  "totalReviews": 2463,
+  "reviews": [
+    { "id": "static-1", "author": "Ayşe K.", "rating": 5, "text": "Üsküdar şubesinde kruvasanlar efsane! Tazelik ve lezzet bir arada.", "time": "geçen hafta içinde", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-2", "author": "Mehmet Y.", "rating": 5, "text": "Kahveler harika, kruvasanlar taptaze. Sunum ve servis çok başarılı.", "time": "geçen hafta içinde", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-3", "author": "Zeynep A.", "rating": 5, "text": "Fransız pastanesi ambiyansı birebir. A La Lune standartı Üsküdar’da yaşıyor.", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-4", "author": "Can B.", "rating": 5, "text": "Kruvasanların katları nefis, iç doluluk muazzam. Her lokması sanat!", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-5", "author": "Elif S.", "rating": 5, "text": "Tatlılar çok dengeli, şeker baymıyor. Favorim fıstıklı kruvasan!", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-6", "author": "Oğuz T.", "rating": 5, "text": "Sıcak, samimi bir ortam. Barista da kruvasan kadar iyi!", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-7", "author": "Deniz K.", "rating": 5, "text": "Üsküdar’da böyle kalite harika. Sunumlar çok şık, porsiyonlar cömert.", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-8", "author": "Mert A.", "rating": 5, "text": "Paris’te yediğim kruvasan kadar iyi. Tereyağ kokusu şahane.", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-9", "author": "Seda N.", "rating": 5, "text": "Tatlı tuzlu tüm kruvasanlar başarılı. Kahvaltı için ideal nokta.", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-10", "author": "Kerem D.", "rating": 5, "text": "Hijyen, servis, lezzet üçlüsü tam puan. A La Lune farkı!", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-11", "author": "Ece T.", "rating": 5, "text": "Tatlılarda denge çok iyi, pastalarda malzeme kalitesi hissediliyor.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-12", "author": "Umut Y.", "rating": 5, "text": "Personel güler yüzlü, önerileri nokta atışı. Herkese tavsiye!", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-13", "author": "Selin R.", "rating": 5, "text": "Kruvasan katları çıtır, iç dolgular taze. Fiyat/performans iyi.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-14", "author": "Baran M.", "rating": 5, "text": "Espresso ve kruvasan ikilisi müthiş. Mekân da çok ferah.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-15", "author": "Naz A.", "rating": 5, "text": "Ürün sunumları incelikli, tatlar rafine. Tebrikler A La Lune!", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-16", "author": "Cem S.", "rating": 5, "text": "Hafta sonu kahvaltısı için vazgeçilmezimiz oldu.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-17", "author": "Nil K.", "rating": 5, "text": "Kruvasanlar gerçekten sanatsal. Usta işi belli oluyor.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-18", "author": "Alihan G.", "rating": 5, "text": "Servis hızlı, ekip profesyonel. Üsküdar’a çok yakışmış.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-19", "author": "Gizem U.", "rating": 5, "text": "Her ziyarette aynı yüksek kalite. Tebrikler!", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" },
+    { "id": "static-20", "author": "Okan T.", "rating": 5, "text": "Kruvasanda zirve. A La Lune Üsküdar kesinlikle denemeye değer.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRocFK63yhQRjRk3Debu_ck" }
+  ]
+}

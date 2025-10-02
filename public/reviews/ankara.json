@@ -1,0 +1,26 @@
+{
+  "rating": 4.9,
+  "totalReviews": 291,
+  "reviews": [
+    { "id": "static-1", "author": "Eylül B.", "rating": 5, "text": "Ankara Bahçelievler şube çok nezih. Kruvasanlar olağanüstü.", "time": "geçen hafta içinde", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-2", "author": "Selçuk T.", "rating": 5, "text": "Çalışanlar ilgili, kahve ve tatlılar çok iyi dengede.", "time": "geçen hafta içinde", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-3", "author": "Nisa R.", "rating": 5, "text": "Kruvasan katları incecik ve çıtır; iç dolgular taze.", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-4", "author": "Caner D.", "rating": 5, "text": "Ambiyans çok hoş; sunumlar estetik. A La Lune farkı Ankara’da!", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-5", "author": "Yaren S.", "rating": 5, "text": "Tatlılar hafif ve kaliteli. Fıstıklı kruvasan favorim oldu.", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-6", "author": "Mert G.", "rating": 5, "text": "Kahvaltı için mükemmel bir adres. Servis hızlı.", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-7", "author": "Tuğçe K.", "rating": 5, "text": "Özenli sunum ve harika lezzetler. Kesinlikle tavsiye!", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-8", "author": "Volkan H.", "rating": 5, "text": "Espresso şahane; kruvasanla kombin efsane oluyor.", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-9", "author": "Eda Ç.", "rating": 5, "text": "Hijyen çok iyi, ekip profesyonel. Ankara’ya çok yakışmış.", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-10", "author": "Rıza N.", "rating": 5, "text": "Kruvasanlar gerçek anlamda sanatsal, ustalık belli oluyor.", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-11", "author": "Hazal P.", "rating": 5, "text": "Tatlılar baymıyor, malzeme kalitesi hissediliyor.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-12", "author": "Serhat Y.", "rating": 5, "text": "Güleryüzlü ekip, hızlı servis, harika lezzetler.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-13", "author": "Pınar T.", "rating": 5, "text": "A La Lune Ankara’da farkını ortaya koymuş. Çok beğendim.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-14", "author": "Ulaş K.", "rating": 5, "text": "Kruvasan iç dolguları çok başarılı, âdeta akıyor.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-15", "author": "İnci S.", "rating": 5, "text": "Sunumlardaki estetik detaylar çok hoşumuza gitti.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-16", "author": "Özgür C.", "rating": 5, "text": "Her gelişimizde aynı kaliteyi buluyoruz. Tebrikler!", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-17", "author": "Melike V.", "rating": 5, "text": "Ankara’da böyle bir lezzet durağına ihtiyacımız vardı.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-18", "author": "Cihan A.", "rating": 5, "text": "Kruvasan çıtırlığı ve tereyağı dengesi mükemmel.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-19", "author": "Nergis B.", "rating": 5, "text": "Hem göz hem damak için şölen. Çok beğendik.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" },
+    { "id": "static-20", "author": "Rahmi D.", "rating": 5, "text": "Ankara’daki favori pastanemiz oldu. Şiddetle tavsiye!", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJN8x9BAxP0xQRufCZfTUt2XY" }
+  ]
+}

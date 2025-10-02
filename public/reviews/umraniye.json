@@ -1,0 +1,26 @@
+{
+  "rating": 4.6,
+  "totalReviews": 1645,
+  "reviews": [
+    { "id": "static-1", "author": "Seda B.", "rating": 5, "text": "Ümraniye şubesi tertemiz, servis hızlı. Kruvasanların tazeliği harika.", "time": "geçen hafta içinde", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-2", "author": "Kerem K.", "rating": 5, "text": "Mükemmel hizmet ve lezzet. Özellikle bademli kruvasan favorim.", "time": "geçen hafta içinde", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-3", "author": "Nazlı S.", "rating": 5, "text": "A La Lune kalitesi Ümraniye’de de hissediliyor. Sunumlar çok zarif.", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-4", "author": "Emre D.", "rating": 5, "text": "Kahve ve kruvasan eşleşmesi kusursuz. Personel güler yüzlü.", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-5", "author": "Zehra T.", "rating": 5, "text": "Tatlılarda aşırı şeker yok, dengeli ve kaliteli tatlar. Tavsiye ederim.", "time": "2 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-6", "author": "Burak A.", "rating": 5, "text": "Akşamüstü mola için ideal. Pastalar taze, ortam ferah.", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-7", "author": "İrem G.", "rating": 5, "text": "Çalışanlar ilgili. Çikolatalı kruvasan efsane, mutlaka deneyin.", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-8", "author": "Serkan Y.", "rating": 5, "text": "Sunum, tat ve konsept çok uyumlu. A La Lune kalitesi başka!", "time": "3 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-9", "author": "Gülşen O.", "rating": 5, "text": "Her gelişimde aynı kalite. Kahvaltı tabakları da çok başarılı.", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-10", "author": "Hakan P.", "rating": 5, "text": "Kruvasan katları çıtır çıtır, iç dolgular bol ve taze.", "time": "4 hafta önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-11", "author": "Dilan Ç.", "rating": 5, "text": "Tatlı tuzlu seçenekler dengeli; özellikle bademli çok iyi.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-12", "author": "Okan R.", "rating": 5, "text": "Baristalar işini iyi biliyor. Latte art bile özenli.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-13", "author": "Eylül V.", "rating": 5, "text": "A La Lune Ümraniye tam bir nefes alma noktası. Çok memnunuz.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-14", "author": "Fahri K.", "rating": 5, "text": "Hijyen ve düzen örnek seviyede. Lezzetler de bir o kadar iyi.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-15", "author": "Melis N.", "rating": 5, "text": "Ürün çeşitliliği çok iyi. Günün her saati bir şeyler var.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-16", "author": "Gökhan F.", "rating": 5, "text": "Arkadaşlarla buluşmak için ideal. Sessiz köşeleri de mevcut.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-17", "author": "Beyza İ.", "rating": 5, "text": "Her ziyaretimde lezzetler aynı standartta. Teşekkürler.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-18", "author": "Eren U.", "rating": 5, "text": "Porsiyonlar yeterli, fiyat/performans gayet iyi.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-19", "author": "Yasemin C.", "rating": 5, "text": "Kruvasan tek kelimeyle efsane. Tekrar tekrar geliyoruz.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" },
+    { "id": "static-20", "author": "Emel T.", "rating": 5, "text": "Ümraniye’nin en iyi kruvasanları burada. Güvenle tavsiye ederim.", "time": "1 ay önce", "googleUrl": "https://www.google.com/maps/place/?q=place_id:ChIJsUpbWFDJyhQRD8owg3qA8xw" }
+  ]
+}
