@@ -73,21 +73,7 @@ const Hero: React.FC = () => {
             sadelikle buluşan Fransız ruhunu taşıyor.
           </p>
 
-          {/* CTA Buttons - hidden on mobile */}
-          <div className="hidden sm:flex sm:flex-row gap-4 justify-center items-center">
-            <button 
-              onClick={() => {
-                const event = new CustomEvent('navigate', { detail: 'menu' });
-                window.dispatchEvent(event);
-              }}
-              className="btn-primary"
-            >
-              Menüyü Görüntüle
-            </button>
-            <a href="#contact" className="btn-secondary">
-              Bize Ulaşın
-            </a>
-          </div>
+          {/* CTA Buttons removed as requested */}
 
             </div>
           </div>

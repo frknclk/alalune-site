@@ -11,6 +11,11 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const navigateAndClose = (page: string) => {
+    handleNavigation(page);
+    setIsMenuOpen(false);
+  };
+
   const handleNavigation = (page: string) => {
     if (onNavigate) {
       onNavigate(page);
@@ -115,6 +120,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           <button
             onClick={toggleMenu}
             className="md:hidden p-2 text-moss-700 hover:text-moss-600 transition-colors"
+            aria-label={isMenuOpen ? 'Menüyü Kapat' : 'Menüyü Aç'}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isMenuOpen ? (
@@ -128,69 +134,71 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden border-t border-moss-200 py-4 bg-cream-50">
-            <nav className="flex flex-col space-y-4">
+          <div className="md:hidden px-3 pb-4">
+            <div className="mt-2 menu-sheet animate-pageflip overflow-hidden">
+              <nav className="flex flex-col py-2">
               {/* Ana sayfalar */}
-              <div className="space-y-2">
+              <div className="space-y-1">
                 <button
-                  onClick={() => handleNavigation('home')}
-                  className="text-moss-700 hover:text-moss-600 transition-colors font-medium px-2 py-1 hover:bg-moss-50 w-full text-left"
+                  onClick={() => navigateAndClose('home')}
+                  className="text-moss-800 hover:text-moss-700 transition-all font-medium px-4 py-3 w-full text-left active:translate-x-1"
                 >
                   Anasayfa
                 </button>
-                <div className="space-y-2">
-                  <span className="text-moss-700 font-medium px-2">Kurumsal</span>
-                  <div className="ml-4 space-y-2">
+                <div className="space-y-1">
+                  <span className="text-moss-700/90 font-medium px-4">Kurumsal</span>
+                  <div className="ml-2 space-y-1">
                     <button
-                      onClick={() => handleNavigation('about')}
-                      className="block w-full text-left text-moss-700 hover:text-moss-600 transition-colors px-2 py-1 hover:bg-moss-50"
+                      onClick={() => navigateAndClose('about')}
+                      className="block w-full text-left text-moss-800 hover:text-moss-700 transition-all px-4 py-2 active:translate-x-1"
                     >
                       Hakkımızda
                     </button>
                     <button
-                      onClick={() => handleNavigation('career')}
-                      className="block w-full text-left text-moss-700 hover:text-moss-600 transition-colors px-2 py-1 hover:bg-moss-50"
+                      onClick={() => navigateAndClose('career')}
+                      className="block w-full text-left text-moss-800 hover:text-moss-700 transition-all px-4 py-2 active:translate-x-1"
                     >
                       Kariyer
                     </button>
                   </div>
                 </div>
                 <button
-                  onClick={() => handleNavigation('branches')}
-                  className="text-moss-700 hover:text-moss-600 transition-colors font-medium px-2 py-1 hover:bg-moss-50 w-full text-left"
+                  onClick={() => navigateAndClose('branches')}
+                  className="text-moss-800 hover:text-moss-700 transition-all font-medium px-4 py-3 w-full text-left active:translate-x-1"
                 >
                   Şubelerimiz
                 </button>
                 <button
-                  onClick={() => handleNavigation('gallery')}
-                  className="text-moss-700 hover:text-moss-600 transition-colors font-medium px-2 py-1 hover:bg-moss-50 w-full text-left"
+                  onClick={() => navigateAndClose('gallery')}
+                  className="text-moss-800 hover:text-moss-700 transition-all font-medium px-4 py-3 w-full text-left active:translate-x-1"
                 >
                   Galeri
                 </button>
                 <button
-                  onClick={() => handleNavigation('franchising')}
-                  className="text-moss-700 hover:text-moss-600 transition-colors font-medium px-2 py-1 hover:bg-moss-50 w-full text-left"
+                  onClick={() => navigateAndClose('franchising')}
+                  className="text-moss-800 hover:text-moss-700 transition-all font-medium px-4 py-3 w-full text-left active:translate-x-1"
                 >
                   Franchising
                 </button>
                 <button
-                  onClick={() => handleNavigation('contact')}
-                  className="text-moss-700 hover:text-moss-600 transition-colors font-medium px-2 py-1 hover:bg-moss-50 w-full text-left"
+                  onClick={() => navigateAndClose('contact')}
+                  className="text-moss-800 hover:text-moss-700 transition-all font-medium px-4 py-3 w-full text-left active:translate-x-1"
                 >
                   Bize Ulaşın
                 </button>
               </div>
               
               {/* Menü butonu */}
-              <div className="border-t border-moss-200 pt-4">
+              <div className="border-t border-moss-200 pt-3 px-4 pb-4">
                 <button 
-                  onClick={() => handleNavigation('menu')}
+                  onClick={() => navigateAndClose('menu')}
                   className="btn-primary w-full"
                 >
                   Menü
                 </button>
               </div>
-            </nav>
+              </nav>
+            </div>
           </div>
         )}
       </div>
