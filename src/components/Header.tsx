@@ -28,7 +28,14 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
       <div className="container-custom">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <div className="flex items-center">
+          <div
+            className="flex items-center cursor-pointer select-none"
+            role="button"
+            aria-label="Anasayfa"
+            onClick={() => handleNavigation('home')}
+            tabIndex={0}
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') handleNavigation('home'); }}
+          >
             <img 
               src={`${BASE_URL}images/logos/La Lune Yeni Logo SON.svg`} 
               alt="A La Lune Logo" 
