@@ -8,6 +8,7 @@ const AboutPage: React.FC = () => {
     window.dispatchEvent(event);
   };
 
+  const BASE_URL = import.meta.env.BASE_URL;
   return (
     <div className="bg-cream-50 min-h-screen flex flex-col">
       <Header onNavigate={handleNavigate} />
@@ -46,7 +47,7 @@ const AboutPage: React.FC = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="/images/kruvasan_yabanmersini.png" 
+                  src={`${BASE_URL}images/kruvasan_yabanmersini.png`} 
                   alt="A La Lune Hikayesi"
                   className="w-full h-96 object-cover rounded-2xl shadow-xl"
                   onError={(e) => {

@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Hero: React.FC = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-hero-gradient">
       {/* Background Pattern */}
@@ -16,7 +17,7 @@ const Hero: React.FC = () => {
           {/* Logo */}
           <div className="mb-8">
             <img 
-              src="/images/logos/La Lune Yeni Logo SON.svg" 
+              src={`${BASE_URL}images/logos/La Lune Yeni Logo SON.svg`} 
               alt="A La Lune Logo" 
               className="h-24 md:h-32 w-auto mx-auto"
               onError={(e) => {
@@ -96,18 +97,18 @@ const Hero: React.FC = () => {
             <div className="flex animate-scroll space-x-6">
               {/* Gallery Items */}
               {[
-                { image: '/images/kruvasan_cilek.png', frame: 'kruvasan' },
-                { image: '/images/pasta_cilek.png', frame: 'pasta' },
-                { image: '/images/americano.png', frame: 'kahve' },
-                { image: '/images/kruvasan_bogurtlen.png', frame: 'kruvasan' },
-                { image: '/images/pasta_fıstık.png', frame: 'pasta' },
-                { image: '/images/latte_vanilya.png', frame: 'kahve' },
-                { image: '/images/kruvasan_yabanmersini.png', frame: 'kruvasan' },
-                { image: '/images/pasta_limon.png', frame: 'pasta' },
-                { image: '/images/caffemocha.jpg', frame: 'kahve' },
-                { image: '/images/kruvasan_fistik.png', frame: 'kruvasan' },
-                { image: '/images/pasta_strawberry.jpeg', frame: 'pasta' },
-                { image: '/images/vanilyalatte.jpg', frame: 'kahve' }
+                { image: `${BASE_URL}images/kruvasan_cilek.png`, frame: 'kruvasan' },
+                { image: `${BASE_URL}images/pasta_cilek.png`, frame: 'pasta' },
+                { image: `${BASE_URL}images/americano.png`, frame: 'kahve' },
+                { image: `${BASE_URL}images/kruvasan_bogurtlen.png`, frame: 'kruvasan' },
+                { image: `${BASE_URL}images/pasta_fıstık.png`, frame: 'pasta' },
+                { image: `${BASE_URL}images/latte_vanilya.png`, frame: 'kahve' },
+                { image: `${BASE_URL}images/kruvasan_yabanmersini.png`, frame: 'kruvasan' },
+                { image: `${BASE_URL}images/pasta_limon.png`, frame: 'pasta' },
+                { image: `${BASE_URL}images/caffemocha.jpg`, frame: 'kahve' },
+                { image: `${BASE_URL}images/kruvasan_fistik.png`, frame: 'kruvasan' },
+                { image: `${BASE_URL}images/pasta_strawberry.jpeg`, frame: 'pasta' },
+                { image: `${BASE_URL}images/vanilyalatte.jpg`, frame: 'kahve' }
               ].map((item, index) => (
                 <div key={index} className="flex-shrink-0 relative">
                   {/* Frame based on type */}
@@ -169,12 +170,12 @@ const Hero: React.FC = () => {
               
               {/* Duplicate for seamless loop */}
               {[
-                { image: '/images/kruvasan_cilek.png', frame: 'kruvasan' },
-                { image: '/images/pasta_cilek.png', frame: 'pasta' },
-                { image: '/images/americano.png', frame: 'kahve' },
-                { image: '/images/kruvasan_bogurtlen.png', frame: 'kruvasan' },
-                { image: '/images/pasta_fıstık.png', frame: 'pasta' },
-                { image: '/images/latte_vanilya.png', frame: 'kahve' }
+                { image: `${BASE_URL}images/kruvasan_cilek.png`, frame: 'kruvasan' },
+                { image: `${BASE_URL}images/pasta_cilek.png`, frame: 'pasta' },
+                { image: `${BASE_URL}images/americano.png`, frame: 'kahve' },
+                { image: `${BASE_URL}images/kruvasan_bogurtlen.png`, frame: 'kruvasan' },
+                { image: `${BASE_URL}images/pasta_fıstık.png`, frame: 'pasta' },
+                { image: `${BASE_URL}images/latte_vanilya.png`, frame: 'kahve' }
               ].map((item, index) => (
                 <div key={`dup-${index}`} className="flex-shrink-0 relative">
                   {item.frame === 'kruvasan' && (

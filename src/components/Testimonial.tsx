@@ -61,11 +61,12 @@ const Testimonial: React.FC = () => {
     }
   ];
 
+  const BASE_URL = import.meta.env.BASE_URL || '/';
   const branchImageMap: Record<string, string> = {
-    'Üsküdar': '/images/branches/uskudar.jpg',
-    'Ümraniye': '/images/branches/umraniye.jpg',
-    'Karaköy': '/images/branches/karakoy.jpg',
-    'Ankara': '/images/branches/bahceli.jpg',
+    'Üsküdar': `${BASE_URL}images/branches/uskudar.jpg`,
+    'Ümraniye': `${BASE_URL}images/branches/umraniye.jpg`,
+    'Karaköy': `${BASE_URL}images/branches/karakoy.jpg`,
+    'Ankara': `${BASE_URL}images/branches/bahceli.jpg`,
   };
 
   // Google Places API Key - .env dosyasından alınacak
@@ -97,7 +98,7 @@ const Testimonial: React.FC = () => {
   // Static loader fallback: public/reviews/{slug}.json
   const fetchStaticReviews = async (branchKey: string) => {
     try {
-      const res = await fetch(`/reviews/${branchKey}.json?_=${Date.now()}`);
+      const res = await fetch(`${BASE_URL}reviews/${branchKey}.json?_=${Date.now()}`);
       if (!res.ok) return null;
       const data = await res.json();
       return data as { rating: number; totalReviews: number; reviews: Review[] };

@@ -23,6 +23,7 @@ interface MenuCategory {
 }
 
 const MenuPage: React.FC = () => {
+  const BASE_URL = import.meta.env.BASE_URL || '/';
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const categoryRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
 
@@ -133,7 +134,7 @@ const MenuPage: React.FC = () => {
                 <div className="mb-12">
                   <div className="relative h-64 md:h-80 rounded-2xl overflow-hidden mb-8 bg-gradient-to-br from-moss-100 to-gold-100">
                     <img 
-                      src={`/${category.photo.replace(/\s+/g, '%20')}`}
+                      src={`${BASE_URL}${category.photo.replace(/\s+/g, '%20')}`}
                       alt={category.category}
                       className="w-full h-full object-cover bg-white"
                       onError={(e) => {
@@ -167,7 +168,7 @@ const MenuPage: React.FC = () => {
                     <div key={index} className="card-premium">
                       <div className="h-48 bg-gradient-to-br from-moss-100 to-gold-100 flex items-center justify-center overflow-hidden">
                         <img 
-                          src={`/${item.photo.replace(/\s+/g, '%20')}`} 
+                          src={`${BASE_URL}${item.photo.replace(/\s+/g, '%20')}`} 
                           alt={item.name}
                           className="w-full h-full object-cover"
                           onError={(e) => {

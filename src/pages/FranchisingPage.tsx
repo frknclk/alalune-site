@@ -12,6 +12,7 @@ const FranchisingPage: React.FC = () => {
 
   // Removed unused steps array
 
+  const BASE_URL = import.meta.env.BASE_URL;
   return (
     <div className="bg-cream-50 min-h-screen flex flex-col">
       <Header onNavigate={handleNavigate} />
@@ -50,7 +51,7 @@ const FranchisingPage: React.FC = () => {
               </div>
               <div className="relative">
                 <img 
-                  src="/images/DSCF6123-14 kopya.jpg" 
+                  src={`${BASE_URL}images/DSCF6123-14 kopya.jpg`} 
                   alt="A La Lune Franchise"
                   className="w-full h-96 object-cover rounded-2xl shadow-xl"
                   onError={(e) => {

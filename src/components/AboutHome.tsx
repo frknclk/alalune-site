@@ -8,6 +8,7 @@ const AboutHome: React.FC = () => {
     setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 0);
   };
 
+  const BASE_URL = import.meta.env.BASE_URL;
   return (
     <section id="about" className="section-padding bg-premium-gradient">
       <div className="container-custom">
@@ -24,7 +25,7 @@ const AboutHome: React.FC = () => {
 
           <div className="relative">
             <img
-              src="/images/kruvasan_bogurtlen.png"
+              src={`${BASE_URL}images/kruvasan_bogurtlen.png`}
               alt="A La Lune Hakkımızda"
               className="w-full h-80 md:h-96 object-cover rounded-2xl shadow-xl"
               onError={(e) => {

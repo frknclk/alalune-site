@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
   return (
     <footer className="bg-footer-gradient text-white">
       <div className="container-custom">
@@ -10,7 +11,7 @@ const Footer: React.FC = () => {
               <div className="md:col-span-2">
                 <div className="flex items-center mb-4">
                   <img 
-                    src="/images/logos/white_footerlogo.png" 
+                    src={`${BASE_URL}images/logos/white_footerlogo.png`} 
                     alt="A La Lune Logo" 
                     className="h-12 w-auto mr-3"
                     onError={(e) => {

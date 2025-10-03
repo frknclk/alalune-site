@@ -140,7 +140,8 @@ const BranchesMap: React.FC = () => {
         const badge = document.createElement('div');
         badge.className = 'map-branch-badge';
         const logo = document.createElement('img');
-        logo.src = '/images/logos/La Lune Yeni Logo SON.jpg';
+        const BASE_URL = import.meta.env.BASE_URL || '/';
+        logo.src = `${BASE_URL}images/logos/La Lune Yeni Logo SON.jpg`;
         logo.alt = 'A La Lune';
         logo.className = 'map-branch-logo';
         const title = document.createElement('span');

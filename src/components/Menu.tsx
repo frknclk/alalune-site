@@ -3,6 +3,7 @@ import menuData from './data.json';
 
 
 const Menu: React.FC = () => {
+  const BASE_URL = import.meta.env.BASE_URL || '/';
   const [activeCategory, setActiveCategory] = useState('sweet-croissants');
 
   // JSON verilerinden sadece istenen kategorileri filtrele
@@ -82,7 +83,7 @@ const Menu: React.FC = () => {
               <div key={index} className="card-premium">
               <div className="h-48 bg-gradient-to-br from-moss-100 to-gold-100 flex items-center justify-center overflow-hidden">
                 <img 
-                  src={`/${item.photo}`} 
+                  src={`${BASE_URL}${item.photo}`} 
                   alt={item.name}
                   className="w-full h-full object-cover"
                   onError={(e) => {

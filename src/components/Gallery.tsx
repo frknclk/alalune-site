@@ -12,6 +12,7 @@ interface VitrinItem {
 }
 
 const Gallery: React.FC = () => {
+  const BASE_URL = import.meta.env.BASE_URL || '/';
   // vitrin.json'dan tüm ürünleri al
   const allItems: VitrinItem[] = vitrinData.flatMap(category => category.items);
 
@@ -34,7 +35,7 @@ const Gallery: React.FC = () => {
             <div key={item.photo || `${item.name}-${index}`} className="card-premium p-0 overflow-hidden">
               <div className="aspect-square bg-gradient-to-br from-moss-100 to-gold-100 flex items-center justify-center overflow-hidden">
                 <img 
-                  src={`/${item.photo}`} 
+                  src={`${BASE_URL}${encodeURI(item.photo)}`} 
                   alt={item.name}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                   onError={(e) => {

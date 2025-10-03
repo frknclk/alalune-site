@@ -17,6 +17,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
     }
   };
 
+  const BASE_URL = import.meta.env.BASE_URL;
   return (
     <header className="bg-cream-50 shadow-lg fixed w-full top-0 z-50 border-b border-moss-200">
       <div className="container-custom">
@@ -24,7 +25,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/images/logos/La Lune Yeni Logo SON.svg" 
+              src={`${BASE_URL}images/logos/La Lune Yeni Logo SON.svg`} 
               alt="A La Lune Logo" 
               className="h-10 w-auto mr-3"
               onError={(e) => {

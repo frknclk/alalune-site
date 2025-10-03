@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import vitrinData from '../components/vitrin.json';
 
 const GalleryPage: React.FC = () => {
+  const BASE_URL = import.meta.env.BASE_URL || '/';
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const handleNavigate = (page: string) => {
     const event = new CustomEvent('navigate', { detail: page });
@@ -23,7 +24,7 @@ const GalleryPage: React.FC = () => {
     const flat = (vitrinData as any[]).flatMap((c: any) => c.items || []);
     const vitrinItems = flat.map((it: any) => ({
       ...it,
-      src: `/${it.photo}`,
+      src: `${BASE_URL}${encodeURI(it.photo)}`,
       name: it.name || 'Ürün',
     }));
 
@@ -40,7 +41,7 @@ const GalleryPage: React.FC = () => {
       'images/website/DSC08595-1368x2048.jpg',
       'images/website/DSC08595-1K-JPEG.jpg',
       'images/website/DSC08627-1K-JPEG.jpg',
-    ].map((p) => ({ src: `/${p}`, name: 'A La Lune' }));
+    ].map((p) => ({ src: `${BASE_URL}${p}`, name: 'A La Lune' }));
 
     // Include branch images
     const branchImages = [
@@ -48,7 +49,7 @@ const GalleryPage: React.FC = () => {
       'images/branches/umraniye.jpg',
       'images/branches/karakoy.jpg',
       'images/branches/bahceli.jpg',
-    ].map((p) => ({ src: `/${p}`, name: 'Şube' }));
+    ].map((p) => ({ src: `${BASE_URL}${p}`, name: 'Şube' }));
 
     return [...branchImages, ...websiteImages, ...vitrinItems];
   }, []);
