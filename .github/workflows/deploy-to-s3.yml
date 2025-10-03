@@ -1,41 +1,39 @@
 name: Deploy to S3
 
 on:
-    push:
-        branches:
-            - master
+  workflow_dispatch:
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Depoyu Klonla
-              uses: actions/checkout@v3
+    steps:
+      - name: Depoyu Klonla
+        uses: actions/checkout@v3
 
-            - name: Node.js Kurulumu
-              uses: actions/setup-node@v3
-              with:
-                  node-version: 20
+      - name: Node.js Kurulumu
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
 
-            - name: Bağımlılıkları Kur
-              run: npm install
+      - name: Bağımlılıkları Kur
+        run: npm install
 
-            - name: React Build Al
-              run: npm run build
+      - name: React Build Al
+        run: npm run build
 
-            - name: AWS CLI ile Oturum Aç
-              uses: aws-actions/configure-aws-credentials@v1
-              with:
-                  aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-                  aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-                  aws-region: ${{ secrets.AWS_REGION }}
+      - name: AWS CLI ile Oturum Aç
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
 
-            - name: Build Edilen Dosyaları S3'e Yükle
-              run: aws s3 sync ./dist/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
+      - name: Build Edilen Dosyaları S3'e Yükle
+        run: aws s3 sync ./dist/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
 
-            - name: CloudFront Cache Invalidasyonu Yap
-              run: |
-                  aws cloudfront create-invalidation \
-                    --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
-                    --paths "/*"
+      - name: CloudFront Cache Invalidasyonu Yap
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/*"
